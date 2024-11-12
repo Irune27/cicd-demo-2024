@@ -12,6 +12,6 @@ jobs:
       - name: Probar código
         run: python3 main.py
       - name: Crear imagen Docker
-        run: docker build -t ipalacios017/holamundo
+        run: docker build -t ipalacios017/holamundo .
       - name: Probar contenedor
         run: docker run ipalacios017/holamundo
